@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aplicación de películas y programas de televisión</string>
+
+    <string name="tab_movie">Película</string>
+    <string name="tab_tv_show">Programa de televisión</string>
+    <string name="todo">TODO</string>
+    <string name="tv_title">Título</string>
+    <string name="tv_date_release">Fecha de lanzamiento</string>
+    <string name="tv_description">Descripción</string>
+    <string name="blank">.</string>
+
+    <string name="error_fetch">Por favor revise su conexion a internet</string>
+
+    <string name="already_available">Articulo ya en favorito</string>
+    <string name="has_been_saved">Artículo guardado en favorito</string>
+    <string name="delete_item">Elemento eliminado de Favorito</string>
+
+    <string name="save">Add To Favorite</string>
+    <string name="delete">Delete From Favorite</string>
+
+    <string name="favorite_movie">Favorite Movie</string>
+    <string name="favorite_tv_show">Favorite TV Show</string>
+
+    <string name="search_text">Buscar..</string>
+
+    <string name="appwidget_text">FAVORITE MOVIE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="empty_text">NO DATA</string>
+
+    <string name="menu_change_language_settings">Cambiar idioma</string>
+    <string name="menu_movie_favorite">Movie Favorite</string>
+    <string name="menu_tv_show_favorite">Tv Show Favorite</string>
+    <string name="menu_settings">Settings</string>
+</resources>

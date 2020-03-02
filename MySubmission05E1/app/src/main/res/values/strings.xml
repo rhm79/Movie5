@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Movie and Tv Show App</string>
+
+    <string name="tab_movie">Movie</string>
+    <string name="tab_tv_show">TV Show</string>
+    <string name="todo">TODO</string>
+    <string name="tv_title">Title</string>
+    <string name="tv_date_release">Date Release</string>
+    <string name="tv_description">Description</string>
+    <string name="blank">.</string>
+
+    <string name="error_fetch">Please check your internet connection</string>
+
+    <string name="already_available">Item already in Favorite</string>
+    <string name="has_been_saved">Item saved to Favorite</string>
+    <string name="delete_item">Item removed from Favorite</string>
+
+    <string name="save">Add To Favorite</string>
+    <string name="delete">Delete From Favorite</string>
+
+    <string name="favorite_movie">Favorite Movie</string>
+    <string name="favorite_tv_show">Favorite TV Show</string>
+
+    <string name="search_text">Search..</string>
+
+    <string name="appwidget_text">FAVORITE MOVIE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="empty_text">NO DATA</string>
+
+    <string name="menu_change_language_settings">Change Language</string>
+    <string name="menu_movie_favorite">Movie Favorite</string>
+    <string name="menu_tv_show_favorite">Tv Show Favorite</string>
+    <string name="menu_settings">Settings</string>
+</resources>
