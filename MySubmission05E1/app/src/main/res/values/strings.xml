@@ -31,4 +31,6 @@
     <string name="menu_movie_favorite">Movie Favorite</string>
     <string name="menu_tv_show_favorite">Tv Show Favorite</string>
     <string name="menu_settings">Settings</string>
+
+    <string name="title_activity_settings">Settings</string>
 </resources>

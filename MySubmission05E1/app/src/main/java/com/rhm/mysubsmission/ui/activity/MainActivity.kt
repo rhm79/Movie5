@@ -11,6 +11,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.rhm.mysubsmission.R
 import com.rhm.mysubsmission.adapter.SectionsPagerAdapter
+import com.rhm.mysubsmission.settings.SettingsActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -64,6 +65,9 @@ class MainActivity : AppCompatActivity() {
         } else if (item.itemId == R.id.tv_show_favorite) {
             val mFavTvShowIntent = Intent(this, FavoriteTvShowActivity::class.java)
             startActivity(mFavTvShowIntent)
+        } else if (item.itemId == R.id.action_settings) {
+            val mSettingIntent = Intent(this, SettingsActivity::class.java)
+            startActivity(mSettingIntent)
         }
         return super.onOptionsItemSelected(item)
     }

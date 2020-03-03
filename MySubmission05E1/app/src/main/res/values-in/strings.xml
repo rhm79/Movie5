@@ -32,4 +32,6 @@
     <string name="menu_movie_favorite">Film Favorit</string>
     <string name="menu_tv_show_favorite">Acara TV Favorit</string>
     <string name="menu_settings">Pengaturan</string>
+
+    <string name="title_activity_settings">Settings</string>
 </resources>

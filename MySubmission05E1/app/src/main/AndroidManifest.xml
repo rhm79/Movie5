@@ -11,6 +11,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity
+            android:name=".settings.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".ui.activity.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rhm.mysubsmission.ui.activity.MainActivity" />
+        </activity>
+
         <receiver android:name=".widget.FavoriteMovieWidget">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -35,7 +44,6 @@
         <service
             android:name=".widget.StackWidgetService"
             android:permission="android.permission.BIND_REMOTEVIEWS" />
-
     </application>
 
 </manifest>

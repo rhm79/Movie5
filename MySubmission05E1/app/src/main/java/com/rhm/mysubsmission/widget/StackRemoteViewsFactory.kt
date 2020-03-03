@@ -18,7 +18,6 @@ internal class StackRemoteViewsFactory(private val mContext: Context) :
     //private val favorites: List<Favorite> = java.util.ArrayList<Favorite>()
     private val mWidgetItems = ArrayList<Bitmap>()
     private val mmWidgetItems = ArrayList<MovieTable>()
-    private val mmmWid: List<MovieTable> = ArrayList<MovieTable>()
     //private val mmWidgetItems:MutableList<MovieTable> = ArrayList()
 
 
